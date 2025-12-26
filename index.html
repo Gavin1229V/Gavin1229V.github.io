@@ -21,11 +21,11 @@
       <div class="hero-content">
         <p class="eyebrow">Portfolio</p>
         <h1>Gavin Verma</h1>
-        <p class="tagline">Current MSc Advanced Computational Mathematics student.</p>
+        <p class="tagline">Software engineer with a quantitative edge: numerical methods, ML, and API-first systems.</p>
         <div class="hero-tags">
-          <span class="pill soft">Numerical modeling</span>
-          <span class="pill soft">Data & ML</span>
-          <span class="pill soft">Full-stack delivery</span>
+          <span class="pill soft">Risk & numerical modeling</span>
+          <span class="pill soft">Data & ML systems</span>
+          <span class="pill soft">APIs & platforms</span>
         </div>
         <div class="hero-actions">
           <a class="button primary" href="https://github.com/Gavin1229V" target="_blank" rel="noreferrer">GitHub</a>
@@ -35,10 +35,6 @@
           <div>
             <span class="micro-tag">Location</span>
             <p>Glasgow</p>
-          </div>
-          <div>
-            <span class="micro-tag">Phone</span>
-            <p>07534 192747</p>
           </div>
           <div>
             <span class="micro-tag">Email</span>
@@ -59,11 +55,7 @@
         <h2>About</h2>
       </div>
       <p class="lead">
-        I am currently an MSc student at the University of Strathclyde studying Advanced Computational Mathematics. 
-        I work across machine learning, statistical modelling, numerical methods, and PDEs, building a strong mathematical foundation. 
-        Previously, I earned a BSc (Hons) in Computer Science with experience in OOP, web/database design, software engineering, 
-        and full-stack development. My 4th year project delivered a secure mobile polling app with authentication, 
-        hashing, and SSH-secured database access using React Native, Node.js, and MySQL. Eager to apply my technical and quantitative skills to challenging problems in software development and finance.
+        MSc Advanced Computational Mathematics student aiming for quant/engineering roles. Comfortable with machine learning, statistical modelling, numerical methods, and PDEs, and pairing them with production-minded software. BSc (Hons) Computer Science (2:1): OOP, web/database design, and full-stack delivery. Built and shipped a secure mobile polling app end-to-end (auth, hashing, SSH-secured MySQL, React Native, Node.js). Ready to apply technical and quantitative skills to problems in software and finance.
       </p>
     </section>
 
@@ -75,17 +67,17 @@
       <div class="focus-grid">
         <article class="focus-card">
           <h3>Financial modeling</h3>
-          <p>Monte Carlo and scenario analysis for pricing and risk; translate models into production-ready code.</p>
+          <p>Monte Carlo and scenario analysis for pricing/risk, with an eye on translating models into maintainable code.</p>
           <span class="micro-tag">Python · NumPy · pandas</span>
         </article>
         <article class="focus-card">
           <h3>Data & ML systems</h3>
-          <p>Build data pipelines and predictive models with careful evaluation, versioning, and monitoring.</p>
+          <p>Data pipelines and predictive models with deliberate evaluation, versioning, and reproducibility.</p>
           <span class="micro-tag">scikit-learn · PyTorch · SQL</span>
         </article>
         <article class="focus-card">
           <h3>Product engineering</h3>
-          <p>Design API-first services with clear SLAs, observability, and secure delivery to end users.</p>
+          <p>API-first services with security and observability in mind, from schema to deployment.</p>
           <span class="micro-tag">TypeScript · Node · React</span>
         </article>
       </div>
@@ -123,37 +115,37 @@
     </section>
 
     <section class="panel">
-      <div class="section-heading">
-        <div class="accent-line"></div>
-        <h2>Skills</h2>
-      </div>
-      <div class="skill-grid">
-        <div class="skill-card">
-          <h3>Programming</h3>
-          <p class="muted">Python (NumPy, Pandas, SciPy, PyTorch, Matplotlib), Java, JavaScript, R (tidyverse), C</p>
+        <div class="section-heading">
+          <div class="accent-line"></div>
+          <h2>Skills</h2>
         </div>
-        <div class="skill-card">
-          <h3>Mathematical</h3>
-          <p class="muted">Numerical Analysis, Approximation Techniques, PDEs, Linear Algebra, Optimisation, Risk Analysis</p>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <p class="muted">Python (NumPy, Pandas, SciPy, PyTorch, Matplotlib), JavaScript, R (tidyverse), C</p>
+          </div>
+          <div class="skill-card">
+            <h3>Mathematical</h3>
+            <p class="muted">Numerical methods, approximation techniques, PDEs, linear algebra, optimisation, risk analysis</p>
+          </div>
+          <div class="skill-card">
+            <h3>ML/Data</h3>
+            <p class="muted">Regression, classification, neural networks; evaluation via error/variance and stability checks</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools & Frameworks</h3>
+            <p class="muted">Git, React Native, Node.js, Jest, Jupyter, Visual Studio</p>
+          </div>
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <p class="muted">MySQL</p>
+          </div>
+          <div class="skill-card">
+            <h3>Other</h3>
+            <p class="muted">Problem-solving, technical writing, team collaboration</p>
+          </div>
         </div>
-        <div class="skill-card">
-          <h3>ML/Data</h3>
-          <p class="muted">Regression, Classification, Neural Networks</p>
-        </div>
-        <div class="skill-card">
-          <h3>Tools & Frameworks</h3>
-          <p class="muted">Git, React Native, Node.js, Jest, Jupyter, Visual Studio</p>
-        </div>
-        <div class="skill-card">
-          <h3>Databases</h3>
-          <p class="muted">MySQL</p>
-        </div>
-        <div class="skill-card">
-          <h3>Other</h3>
-          <p class="muted">Problem-solving, Technical Writing, Team Collaboration</p>
-        </div>
-      </div>
-    </section>
+      </section>
 
     <section class="panel">
       <div class="section-heading">
@@ -164,17 +156,32 @@
         <article class="project-card">
           <span class="pill">Mobile · Security</span>
           <h3>Bridging the Gap in Higher Education — Polling app</h3>
-          <p>Cross-platform polling application to boost engagement. Added secure authentication, hashing, and SSH-secured database access. RESTful APIs and WebSocket channels enabled real-time voting; relational schema supported student, representative, and lecturer roles. User and unit tested with Jest.</p>
+          <p>Problem: course feedback lacked participation. Method: cross-platform polling app with auth, hashing, SSH-secured MySQL, REST APIs plus WebSockets for live results, and schema for student/rep/lecturer roles. Outcome: functional release validated through user sessions and Jest unit tests.</p>
         </article>
         <article class="project-card">
           <span class="pill">Numerical methods</span>
           <h3>ML coursework — FEM for PDEs</h3>
-          <p>Applied finite element methods to 1D/2D PDEs, comparing analytical and numerical results using basis functions and stiffness matrices.</p>
+          <p>Problem: approximate solutions for 1D/2D PDEs. Method: applied FEM with basis functions and stiffness matrices. Outcome: compared analytical vs. numerical solutions to track error and stability.</p>
         </article>
         <article class="project-card">
           <span class="pill">ML · PDEs</span>
           <h3>Numerical & Deep Learning Methods — Fisher Equation</h3>
-          <p>Implemented a finite-difference scheme for the Fisher reaction-diffusion equation with truncation error and von Neumann stability analysis; explored step sizes, parameters, and solution behaviour in Python.</p>
+          <p>Problem: stable simulation of the Fisher reaction–diffusion equation. Method: finite-difference solver with truncation error and von Neumann stability analysis; tuned step sizes and parameters in Python. Outcome: maintained stable solutions across tested ranges.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel compact">
+      <div class="section-heading">
+        <div class="accent-line"></div>
+        <h2>Proof of work</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="pill soft">Code</span>
+          <h3>GitHub portfolio</h3>
+          <p>Source, writeups, and experiments across ML, numerical methods, and full-stack projects.</p>
+          <a class="button ghost" href="https://github.com/Gavin1229V" target="_blank" rel="noreferrer">View GitHub</a>
         </article>
       </div>
     </section>
@@ -194,6 +201,7 @@
     </section>
 
     <footer class="footer">
+      <p>Thanks for reading this far!</p>
     </footer>
   </main>
 
